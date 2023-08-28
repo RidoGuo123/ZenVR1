@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 36eefac98b49f994f8f23f8a304a27cd
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - MainLight: {instanceID: 0}
+  - MainLightHDRP: {instanceID: 0}
+  - CausticShader: {instanceID: 0}
+  - CausticsMat: {instanceID: 0}
+  - CRT: {instanceID: 0}
+  - CausticTex: {fileID: 2800000, guid: 3a88a692ff07f5a439fd06b4ebd7010b, type: 3}
+  - FlowmapTex: {fileID: 2800000, guid: f6fb8335dcbf355409712e1e0ec545b9, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
