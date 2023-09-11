@@ -1,5 +1,45 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8695868452241377693
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a76fd08475e21554b8f284f723dd7cf8, type: 3}
+  m_Name: WaterRendering
+  m_EditorClassIdentifier: 
+  active: 1
+  enable:
+    m_OverrideState: 1
+    m_Value: 1
+  minGridSize:
+    m_OverrideState: 0
+    m_Value: 50
+  maxGridSize:
+    m_OverrideState: 0
+    m_Value: 2500
+  elevationTransition:
+    m_OverrideState: 0
+    m_Value: 1000
+  numLevelOfDetails:
+    m_OverrideState: 1
+    m_Value: 3
+  maxTessellationFactor:
+    m_OverrideState: 0
+    m_Value: 10
+  tessellationFactorFadeStart:
+    m_OverrideState: 0
+    m_Value: 150
+  tessellationFactorFadeRange:
+    m_OverrideState: 0
+    m_Value: 1850
+  ambientProbeDimmer:
+    m_OverrideState: 0
+    m_Value: 1
 --- !u!114 &-1114656162615001291
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -15,7 +55,7 @@ MonoBehaviour:
   active: 1
   rotation:
     m_OverrideState: 1
-    m_Value: 30
+    m_Value: 207
   skyIntensityMode:
     m_OverrideState: 1
     m_Value: 0
@@ -27,10 +67,10 @@ MonoBehaviour:
     m_Value: 1
   upperHemisphereLuxValue:
     m_OverrideState: 1
-    m_Value: 4.2876115
+    m_Value: 0.83555263
   upperHemisphereLuxColor:
     m_OverrideState: 1
-    m_Value: {x: 0.5, y: 0.4612696, z: 0.32791725}
+    m_Value: {x: 0.5, y: 0.48096323, z: 0.42614725}
   desiredLuxValue:
     m_OverrideState: 1
     m_Value: 4000
@@ -45,9 +85,9 @@ MonoBehaviour:
     m_Value: 0
   hdriSky:
     m_OverrideState: 1
-    m_Value: {fileID: 8900000, guid: 226255dc8b1d34e4f914e92301b7a177, type: 3}
+    m_Value: {fileID: 8900000, guid: 920c5c0a06fa3bf4298a630a85c6765e, type: 3}
   distortionMode:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 0
   flowmap:
     m_OverrideState: 0
@@ -138,6 +178,7 @@ MonoBehaviour:
   - {fileID: 3548128464492770246}
   - {fileID: 2568321147850643798}
   - {fileID: -1114656162615001291}
+  - {fileID: -8695868452241377693}
 --- !u!114 &2568321147850643798
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -270,7 +311,7 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 0
   type:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 1
   sphericalMode:
     m_OverrideState: 0
@@ -331,7 +372,7 @@ MonoBehaviour:
     m_Value: {x: 0, y: 0, z: 0}
   spaceEmissionTexture:
     m_OverrideState: 0
-    m_Value: {fileID: 0}
+    m_Value: {fileID: 8900000, guid: 920c5c0a06fa3bf4298a630a85c6765e, type: 3}
   spaceEmissionMultiplier:
     m_OverrideState: 0
     m_Value: 1
