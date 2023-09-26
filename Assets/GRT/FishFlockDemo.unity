@@ -217,7 +217,7 @@ VisualEffect:
       - m_Value: 10
         m_Name: SwimSpeed
         m_Overridden: 1
-      - m_Value: 1
+      - m_Value: 2
         m_Name: VelocityMultiper
         m_Overridden: 1
     m_Vector2f:
@@ -246,7 +246,7 @@ VisualEffect:
       m_Array: []
     m_Bool:
       m_Array:
-      - m_Value: 0
+      - m_Value: 1
         m_Name: CollideWithPool
         m_Overridden: 1
 --- !u!4 &148147160
@@ -358,7 +358,7 @@ VisualEffect:
       - m_Value: 10
         m_Name: SwimSpeed
         m_Overridden: 1
-      - m_Value: 1
+      - m_Value: 2
         m_Name: VelocityMultiper
         m_Overridden: 1
     m_Vector2f:
@@ -387,7 +387,7 @@ VisualEffect:
       m_Array: []
     m_Bool:
       m_Array:
-      - m_Value: 0
+      - m_Value: 1
         m_Name: CollideWithPool
         m_Overridden: 1
 --- !u!4 &630096758
@@ -499,7 +499,7 @@ VisualEffect:
       - m_Value: 10
         m_Name: SwimSpeed
         m_Overridden: 1
-      - m_Value: 1
+      - m_Value: 2
         m_Name: VelocityMultiper
         m_Overridden: 1
     m_Vector2f:
@@ -528,7 +528,7 @@ VisualEffect:
       m_Array: []
     m_Bool:
       m_Array:
-      - m_Value: 0
+      - m_Value: 1
         m_Name: CollideWithPool
         m_Overridden: 1
 --- !u!4 &1031197224
@@ -949,7 +949,7 @@ VisualEffect:
       - m_Value: 10
         m_Name: SwimSpeed
         m_Overridden: 1
-      - m_Value: 1
+      - m_Value: 2
         m_Name: VelocityMultiper
         m_Overridden: 1
     m_Vector2f:
@@ -978,7 +978,7 @@ VisualEffect:
       m_Array: []
     m_Bool:
       m_Array:
-      - m_Value: 0
+      - m_Value: 1
         m_Name: CollideWithPool
         m_Overridden: 1
 --- !u!4 &1432602861
@@ -1090,7 +1090,7 @@ VisualEffect:
       - m_Value: 10
         m_Name: SwimSpeed
         m_Overridden: 1
-      - m_Value: 1
+      - m_Value: 2
         m_Name: VelocityMultiper
         m_Overridden: 1
     m_Vector2f:
@@ -1119,7 +1119,7 @@ VisualEffect:
       m_Array: []
     m_Bool:
       m_Array:
-      - m_Value: 0
+      - m_Value: 1
         m_Name: CollideWithPool
         m_Overridden: 1
 --- !u!4 &2070915213
@@ -1130,7 +1130,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2070915210}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.81, y: 0, z: 3.18}
+  m_LocalPosition: {x: -6.46, y: 0, z: 2.86}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
